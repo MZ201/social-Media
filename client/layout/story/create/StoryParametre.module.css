@@ -1,0 +1,30 @@
+.Focus{
+    color : blue;
+    padding-top: 2px;
+    padding-left: 1rem ;  
+    height: 20px;
+}
+
+.unFocus{
+    position: relative;
+    top :7%; 
+    left : 7% ;
+}   
+
+.text{
+    height: 146px;
+    padding-left: 1rem ; 
+    border-radius: 0;
+    background-color:inherit ;
+}
+
+.container{
+    position: relative;
+    margin-top: 10px;
+    width: 98%;
+    height: 182px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255,255, 0.2);
+}
+

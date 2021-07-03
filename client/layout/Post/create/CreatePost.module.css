@@ -1,0 +1,56 @@
+.card{
+    width: 500px;
+    height: 480px;
+    background-color: inherit;
+    border : 1px solid white ; 
+}
+
+.border{
+    border-bottom: 1px dotted wheat;
+    height: 55px;
+}
+
+.img{
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.input{
+    background-color: inherit;
+    border: none; 
+    resize: none;
+    color : white; 
+}
+
+.input:focus{
+    background-color: inherit;
+    border: black;
+    resize: none;
+    outline: none;
+    box-shadow:none ;
+    color:wheat;
+}
+
+.post{
+    margin : 0; 
+    padding : 0; 
+}
+
+.interact{
+    height: 50px;
+    border: 1px solid wheat;
+    border-radius:8px ;
+    margin-bottom: 10px;
+}
+
+.scroll{
+    height: 400px;
+    max-width: 490px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.input_area{
+    overflow: auto;
+    height: 230px;
+}

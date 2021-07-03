@@ -1,0 +1,38 @@
+.body{
+    margin: 0;
+    padding: 0 ; 
+    color: #E4E6EB;
+    background-color:#3A3B3C ;    
+    border-radius: 15px;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.emogyStatistic{
+    height: 26px;
+    position: absolute;
+    bottom: -14%;
+    right: 4%;
+    background-color: inherit;
+    border-radius: 1rem;
+
+}
+
+.msg{
+    color: inherit;
+    font-size:0.935rem ;
+    cursor: pointer;
+}
+
+.option{
+    display: none;
+    
+}
+
+.show:hover > .option{
+    display: flex;
+    cursor: pointer;
+    align-items:center;
+}

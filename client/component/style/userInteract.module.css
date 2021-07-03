@@ -1,0 +1,60 @@
+.container{
+    height:45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.like , .comment , .share{   
+    position: relative;
+    top : 49% ;
+    height: 40px;
+}
+
+.border{
+    height: 50px;
+    border-top : 1px solid #808080 ; 
+    border-bottom: 1px solid grey;
+}
+
+.like:hover , .comment:hover , .share:hover{
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.interact{
+    position: relative;
+}
+
+
+
+.emogi{
+    height: 45px;
+    width: 48%;
+    background-color:#1c1e21 ; 
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: opacity 2s ease-in-out;
+    opacity:0 ; 
+    cursor: pointer;
+    position: absolute;
+    top: 0 ;
+    position: absolute; 
+    top : -100% ; 
+}
+
+
+.like:hover ~ .emogi  , .emogi:hover {
+    opacity: 1;
+    z-index: 10;
+}
+
+
+.statistic{
+    font-size: 0.9375;
+    display: inline;
+    margin-left: 10px;
+}
+

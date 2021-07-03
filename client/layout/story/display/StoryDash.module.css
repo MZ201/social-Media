@@ -1,0 +1,30 @@
+.Stories{
+    display: block;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+
+.blue{
+    color: blue;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-right:5px ;
+    margin-left: 5px;
+}
+
+
+.plus{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3B3C;
+}
+
+.plus{
+    background-color:rgba(128 , 128 , 128 , 0.3) !important;
+}
+

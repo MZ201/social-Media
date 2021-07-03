@@ -1,0 +1,86 @@
+.button{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.Button{
+    height:80%;
+    width: 100%;
+}
+
+.button , .Button{
+    border : none; 
+    background-color:inherit;
+    margin-top: 2px;
+    position: absolute;
+    left: 11%;
+    top:6%; 
+}
+
+.button{
+    background-color:rgba(128 , 128 , 128 , 0.3) !important;
+}
+
+.button:hover{
+    border-radius: 50%;
+}
+
+.Button:hover{
+    border-radius: 10px;
+}
+
+
+.span{
+    display: block;
+    width: inherit;
+    height: 4px;
+    background-color:#385898;
+    position: absolute;
+    top : 100% ; 
+    left: 0;
+}
+
+.hide{
+    visibility:hidden ;
+}
+
+.button:hover .hide{
+    visibility: visible;
+    color: red;
+    z-index: 1;
+}
+
+
+.change{
+    border: none;
+    transition: background-color 0s ;
+    display: inline-block;
+    margin-right:  10px;
+}
+
+
+.change:hover{
+    background-color:rgba(128 , 128 , 128 , 0.6) !important;
+}
+
+.change::after{
+    display: none !important;
+}
+
+.change:focus{
+    box-shadow: none !important;
+}
+
+.DropdownMenu{
+    background-color:#18191a;
+}
+
+.DropdownItem{
+    color:#e4e6eb;
+}
+
+.DropdownItem:hover{
+    background-color:rgba(128 , 128 , 128 , 0.6) !important;
+    border-radius: 5px;
+}

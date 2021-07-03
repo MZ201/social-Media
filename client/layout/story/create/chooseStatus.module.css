@@ -1,0 +1,50 @@
+.story{
+    height:330px;
+    width:220px ;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.image , .text{
+    background-image: url('/storyImage.png');
+    background-size: auto;
+    background-repeat:no-repeat ;
+    display: inline-block;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.image{
+    background-origin: 0 0 ;
+}
+
+.text{
+    background-position: 0 -331px ;
+}
+
+.imgIcon{
+    height: 44px;
+    width: 44px;
+    border-radius:50%;
+    background-color:whitesmoke; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:40%; 
+    left: 40%;
+}
+
+.comment{
+    text-align: center;
+    position: absolute;
+    top: 54%;
+    left: 19%;
+    font-family:  Helvetica, sans-serif;
+}
+
+.letter{
+    color : black ; 
+    font-weight: bold;
+}

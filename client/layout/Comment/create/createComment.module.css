@@ -1,0 +1,18 @@
+.attach{
+	position:absolute; 
+	left:79%;
+	bottom: 10%;
+}
+
+
+.tags{
+	width: auto;
+	height: auto;
+	background-color:black;
+	color:#fff ; 
+	position: absolute;
+	left: 1%;
+	top: 0;
+	font-size: 12pt;
+	letter-spacing: 0.8px;
+}

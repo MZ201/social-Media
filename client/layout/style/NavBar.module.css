@@ -1,0 +1,26 @@
+.navBar{
+    height: 60px;
+}
+
+.img{
+    display: inline-block;
+}
+
+.view{
+    padding : 0 ; 
+    margin : 0 
+}
+
+.p{
+    font-size:1.2rem;
+}
+
+.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: #18191A;
+    height: 60px;
+}

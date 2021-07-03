@@ -1,0 +1,24 @@
+.plus{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3B3C;
+}
+
+.plus{
+    background-color:rgba(128 , 128 , 128 , 0.3) !important;
+}
+
+.container{
+    width: 100%;
+    height: 70px;
+    border-radius: 1rem;
+    margin-left: 1px;
+}
+
+.container:hover{
+    background-color:rgba(128 , 128 , 128 , 0.3) !important;
+}

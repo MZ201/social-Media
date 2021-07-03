@@ -1,0 +1,21 @@
+.musicAttach{
+    width: 98%;
+    height:40px;
+    display: flex;
+    align-content: center;
+    border: 1px solid rgba(255, 255,255, 0.2);
+    border-radius:5px ;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.commentUI{
+    height: 25px;
+    width: 25px;
+    border-radius:50% ;
+    display: grid;
+    place-items: center;
+    background-color:rgba(255, 255,255, 0.2);
+    cursor: pointer;
+}

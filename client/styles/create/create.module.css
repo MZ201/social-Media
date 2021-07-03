@@ -1,0 +1,73 @@
+.span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #18191a ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:6px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.span:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.setting{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgba(255,255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.choose{
+    width: 100%;
+    background-color: rgba(255,255, 255, 0.1);
+}
+
+.border{
+    border-bottom: 1px solid rgba(255, 255,255, 0.2);
+    padding-left: 1rem;
+}
+
+.btnContainer{
+    position: absolute;
+    left : 9%; 
+    bottom: 0%;
+    height: 58px;
+    width: 85%;
+}
+
+.shareBtn , .discardBtn{
+    width: 45%;
+    height: 70%;
+    color : #fff ; 
+    border-radius: 10px;
+    margin :0 5px 0 5px ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.shareBtn{
+    background-color: #2D8FF85A;
+}
+
+.discardBtn{
+    background-color: #FFFFFF1A;
+}
+
+.shareBtn:hover{
+    background-color: #2D8FF8;
+}
+
+
+.discardBtn:hover{
+    background-color: rgba(255,255, 255, 0.3);
+}

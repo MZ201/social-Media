@@ -1,0 +1,78 @@
+.container{
+    background-color: #242526;
+    margin: 0;
+}
+
+.scaleContainer{
+    display: inline-block;
+    width: 102px; 
+    height: 158px;
+}
+
+.storiesContainer{
+    height: 200px;
+    margin-top: 1rem;
+    
+}
+
+
+.storyContainer , .createStoryContainer{
+    width:85px ;
+    height: 132px;
+    border-radius: 5px;    
+    background-color: #18191A;
+    position: relative;
+    cursor: pointer;
+}
+
+.storyContainer{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.createStoryContainer{
+    height: 110px;
+    display:inline-flex ;
+    align-items: start;
+    justify-content: center;
+}
+
+.span{
+    font-size: 15pt;
+    margin: 1rem 0 1rem 0 ;
+    padding-left: 1rem;
+}
+
+.content{
+    font-size: 0.8vh;
+}
+
+
+.plusContainer{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3B3C;
+}
+
+.createStory{
+    width: 100%;
+    position: absolute;
+    left: 68%;
+    top:74% ; 
+    transform:  translate(-50% , -50%);
+    font-size: 10pt;
+}

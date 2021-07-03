@@ -1,0 +1,10 @@
+.container{
+  height: 100vh;
+  background-color: #17a2b8;
+}
+
+.card{
+    background-color: #EAEAEA;
+    width: 400px;
+    height: 400;
+}
